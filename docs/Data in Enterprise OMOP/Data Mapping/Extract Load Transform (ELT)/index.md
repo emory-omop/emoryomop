@@ -1,0 +1,5 @@
+Current ETL documentation is kept and updated continuously in a CI/CD fashion via our ETL pipeline. Specifically, DBT it utilized for development and running of code as well as generating the ETL docs. Additionally, we've begun utilizing the DBT testing framework. All details can be found in the [Emory Enterprise OMOP DBT Documentation](https://probable-chainsaw-6kvrj26.pages.github.io/projects/). Each model run is scheduled via the Apache Airflow orchestration platform. 
+
+Across the framework, we've implemented a DataOps versioning paradigm to ensure code, data, and subsamples are each versioned and tracked within the underlying documentation and test result tracking system. This allows for reproducibility and transparency in our ETL process and data utilized throughout that process.
+
+# 🚧 Remainder Section under constuction as of release date 🚧

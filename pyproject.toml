@@ -1,0 +1,16 @@
+[project]
+name = "emory-omop"
+version = "0.1.0"
+description = "Emory OMOP site pages"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  # PEP 508: no trailing comma inside extras
+  "mkdocs-material[imaging]>=9.6.17",
+  "mkdocs-mermaid2-plugin>=1.2.1",
+  "mkdocs-awesome-nav>=3.0.0",
+  "mkdocs-git-committers-plugin-2"
+]
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
